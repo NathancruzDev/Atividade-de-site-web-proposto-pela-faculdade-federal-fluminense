@@ -1,0 +1,265 @@
+    body {
+      background-color: #2277DD;
+      color: #fe4;
+      font-size: 16px;
+      font-family: "stoke", "Lucida Bright", "liberation";
+    }
+
+    header {
+      display: block;
+      margin-bottom: 1px;
+    }
+
+    nav {
+      padding-top: 40px;
+      display: block;
+      width: 20%;
+      float: left;
+    }
+
+    section {
+      display: block;
+      width: 70%;
+      float: right;
+    }
+
+    a {
+      color: #FFEE55;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #fe3;
+    }
+
+    li {
+      list-style-type: square;
+      line-height: 200%;
+    }
+
+    ul {
+      line-height: 200%;
+    }
+
+    .ender {
+      float: right;
+      text-align: right;
+      line-height: 140%;
+      font-size: 14px;
+      font-family: "Karla", "Verdana", "Ubuntu";
+    }
+
+    .imgLogo {
+      border-bottom: 3px solid #FFFFFF;
+      margin-bottom: 6px;
+      padding-bottom: 10px;
+    }
+
+    .apres {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .listaPadrao {
+      width: 340px;
+      color: #202020;
+      background-color: #EEEEBB;
+      padding: 10px 10px 10px 30px;
+      border: 3px solid #202020;
+      margin: 0 auto 10px auto;
+      list-style-type: square;
+      font-size: 16px;
+    }
+
+    .listaPadrao li ol {
+      color: #202020;
+      list-style-type: lower-alpha;
+      margin-top: 4px;
+      margin-left: 20px;
+      padding-left: 0;
+    }
+
+    .listaPadrao li ol li {
+      color: #202020;
+    }
+
+    .preco {
+      color: #CC0000;
+      font-weight: bold;
+      margin-left: 2px;
+    }
+
+    .titulo {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .tabAcab {
+      border-collapse: collapse;
+      margin-top: 6px;
+      font-size: 15px;
+      background-color: #FFFFCC;
+      color: #000000;
+      font-family: "Karla", "Verdana", "Ubuntu";
+    }
+
+    .tabAcab th,
+    .tabAcab td {
+      border: 2px solid #000000;
+      padding: 6px 12px 6px 12px;
+    }
+
+    .tabAcab th {
+      text-align: left;
+
+    }
+
+    .linTH {
+      color: #EEEE00;
+      background-color: #666666;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    .colTH {
+      color: #000000;
+      background-color: #AAAAAA;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .imgAcab {
+      width: 60px;
+      height: 44px;
+    }
+
+    .tabAcab thead th {
+      background-color: #666666;
+      color: #EEEE00;
+      text-align: center;
+    }
+
+
+    .divCompras {
+      width: 600px;
+      color: #000000;
+      background: #FFFFCC;
+      padding: 6px 6px 15px 6px;
+      font-size: 12px;
+      margin: 20px auto;
+      border: 2px solid #000;
+    }
+
+    .divLinha {
+      margin-bottom: 6px;
+      clear: both;
+    }
+
+    .elemEsq {
+      float: left;
+      width: 350px;
+    }
+
+    .elemDir {
+      float: right;
+      width: 200px;
+    }
+
+    .colPri,
+    .colPriCompras,
+    .colPriPag {
+      float: left;
+      display: inline-block;
+      width: 80px;
+    }
+
+    .colSelProd {
+      width: 160px;
+    }
+
+    .listaCompras {
+      width: 180px;
+      height: 150px;
+      background: #fff;
+    }
+
+    .fsEsq {
+      float: left;
+      width: 300px;
+    }
+
+    .fsDir {
+      margin-bottom: 8px;
+      white-space: nowrap;
+    }
+
+    .impEnder {
+      width: 200px;
+      height: 50px;
+    }
+
+    .impTelef {
+      width: 120px;
+    }
+
+    .impNCC {
+      width: 180px;
+    }
+
+    .impGrande {
+      width: 380px;
+    }
+
+    .impMedio {
+      width: 80px;
+    }
+
+    .numDD {
+      width: 30px;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .numQD {
+      width: 50px;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .botoes {
+      text-align: right;
+      margin: 20px 10px 0 10px;
+
+    }
+
+    .botoes button {
+      padding: 4px 12px;
+      margin-left: 6px;
+      border-radius: 5px !important;
+      border-color: #FFFFCC !important;
+
+    }
+
+    input[type="radio"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 2px solid #999;
+      outline: none;
+
+      position: relative;
+    }
+
+    input[type="radio"]:checked {
+      border: 2px solid #c00;
+      background: radial-gradient(circle at center, white 30%, #d9534f 30%);
+    }
+
+    .circuloAjuste {
+      border-radius: 15px;
+    }

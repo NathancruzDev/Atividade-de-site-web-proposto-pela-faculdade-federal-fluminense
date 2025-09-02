@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Chique Elétrico</title>
+</head>
+
+<body>
+  <header>
+    <img src="imagens/LogoChiqueEletricoTopo.png" alt="fototopo" class="imgLogo" srcset="">
+    <div class="ender">
+      Rua Chique Chique, 123 <br>
+      Tel: (21) 91234-4321 <br>
+      <a href="mailto:contato@chiqueletrico.com.br">contato@chiqueletrico.com.br</a>
+    </div>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        <li>
+          <a href="ChiqueEletrico.html" target="_blank">Apresentação</a>
+        </li>
+        <li>
+          <a href="Materiais.html" target="_blank">Materiais</a>
+        </li>
+        <li>
+          <a href="Acabamentos.html" target="_blank">Acabamentos</a>
+        </li>
+        <li>
+          <a href="Pedidos.html" target="_blank">Pedidos</a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <section>
+    <article class="divCompras">
+      <h2>Compras</h2>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Identificação</legend>
+
+          <div class="elemEsq">
+            <div class="divLinha">
+              <label for="nome" class="colPri">Nome:</label>
+              <input id="nome" name="nome" type="text">
+            </div>
+
+            <div class="divLinha">
+              <label for="email" class="colPri">E-mail:</label>
+              <input id="email" name="email" type="email">
+            </div>
+
+            <div class="divLinha">
+              <label for="end" class="colPri">Endereço:</label>
+              <textarea id="end" name="endereco" class="impEnder"></textarea>
+            </div>
+
+            <div class="divLinha">
+              <label for="tel" class="colPri">Telefone:</label>
+              <input id="tel" name="telefone" type="tel" class="impTelef">
+            </div>
+
+            <div class="divLinha">
+              <label for="cel" class="colPri">Celular:</label>
+              <input id="cel" name="celular" type="tel" class="impTelef">
+            </div>
+          </div>
+
+          <div class="elemDir">
+            <fieldset class="fsDir">
+              <legend>Gênero</legend>
+              <label><input type="radio" name="genero" value="M"> Mas</label>
+              <label><input type="radio" name="genero" value="F"> Fem</label>
+              <label><input type="radio" name="genero" value="O"> Outro</label>
+            </fieldset>
+
+            <fieldset class="fsDir">
+              <legend>Nascimento</legend>
+              <input type="number" min="1" max="31" class="numDD"> /
+              <input type="number" min="1" max="12" class="numDD"> /
+              <input type="number" min="1900" max="2006" class="numQD">
+            </fieldset>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Seleção de Produtos e Pagamento</legend>
+
+          <div class="fsEsq">
+            <div class="divLinha">
+              <label for="selecao" class="colPriCompras">Produto:</label>
+              <select id="selecao" name="selecao" class="colSelProd">
+                <option value="">-----</option>
+
+                <optgroup label="Acabamento Stylus">
+                  <option value="p1">Placa 4x4</option>
+                  <option value="p2">Tomada</option>
+                  <option value="p3">Interruptor</option>
+                </optgroup>
+
+                <optgroup label="Acabamento Slim">
+                  <option value="p4">Placa 4x2</option>
+                  <option value="p5">Módulo Tomada</option>
+                  <option value="p6">Módulo Interruptor</option>
+                </optgroup>
+
+                <optgroup label="Cabo Flexível">
+                  <option value="p7">Sil Preto 2,5mm (100m)</option>
+                  <option value="p8">Cobrecom Azul 2,5mm (100m)</option>
+                  <option value="p9">Sil verde 2,5mm (50m)</option>
+                </optgroup>
+
+                <optgroup label="Terminais Ilhós">
+                  <option value="p10">2,5mm (200 peças)</option>
+                  <option value="p11">4mm (100 peças)</option>
+                </optgroup>
+
+                <optgroup label="Conduíte">
+                  <option value="p12">Plastilit 1/2" 25m</option>
+                  <option value="p13">Plastilit 3/4" 50m</option>
+                </optgroup>
+              </select>
+
+            </div>
+
+            <div class="divLinha">
+              <button type="button">Comprar</button>
+            </div>
+
+            <fieldset class="fsEsq">
+              <legend>Cartão</legend>
+
+              <div class="divLinha">
+                <span class="colPriPag">Bandeira:</span>
+                <label><input type="radio" name="bandeira" value="visa"> Visa</label>
+                <label><input type="radio" name="bandeira" value="master"> Master</label>
+                <label><input type="radio" name="bandeira" value="elo"> Elo</label>
+              </div>
+
+              <div class="divLinha">
+                <label class="colPriPag">Validade:</label>
+                <input type="number" min="1" max="12" class="numDD"> /
+                <input type="number" min="2025" max="2050" class="numQD">
+              </div>
+
+              <div class="divLinha">
+                <label for="ncc" class="colPriPag">Número:</label>
+                <input id="ncc" name="Numero_cartao" type="text" class="impNCC">
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="elemDir">
+            <textarea class="listaCompras" readonly></textarea>
+            <div class="divLinha">
+              <label for="valor">Valor R$</label>
+              <input id="valor" type="text" class="impMedio" readonly>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="botoes">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </article>
+  </section>
+
+</body>
+
+</html>
